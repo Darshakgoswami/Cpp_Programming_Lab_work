@@ -7,14 +7,14 @@ int main()
     cin >> rows >> cols;
     int matrix[10][10];
     cout << "Enter elements:\n";
-    for (int i = 0; i < rows; i++) 
+    for (int i = 0; i < rows; i++)   
     {
-        for (int j = 0; j < cols; j++) 
+        for (int j = 0; j < cols; j++)                                                                          
         {
             cout << "Element [" << i << "][" << j << "]: ";
             cin >> matrix[i][j];
         }
-    }
+    }   
     cout << "Matrix:\n";
     for (int i = 0; i < rows; i++) 
     {
